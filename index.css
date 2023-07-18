@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  width: 1024px;
+  height: 70px;
+  background-color: #EC715F;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > :first-child{
+  margin-right: auto;
+}
+
+.header-logo{
+  height: 70px;
+}
+
+nav{
+  line-height: 70px;
+}
+
+.nav-text{
+  font-size: 16px;
+  color: #FAFAFA;
+  display: inline-block;
+  margin: 0 30px;
+  list-style: none;
+
+}
