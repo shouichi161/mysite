@@ -11,14 +11,18 @@
   <body>
     <header>
       <img class="header-logo" src="img/logo.png">
-      <nav>
-        <ul>
-          <li class="nav-text">Portfolio</li>
-          <li class="nav-text">Feature</li>
-          <li class="nav-text">Profile</li>
-          <li class="nav-text">Contact</li>
-         </ul>
-      </nav>
+      <div class="nav">
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+        <nav class="nav_content">
+          <ul class="nav-list">
+            <li class="nav-item">Portfolio</li>
+            <li class="nav-item">Feature</li>
+            <li class="nav-item">Profile</li>
+            <li class="nav-item">Contact</li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <div class="main-visual">
