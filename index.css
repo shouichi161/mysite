@@ -412,6 +412,23 @@ footer{
     display: none;
   }
 
+  .feature{
+    width: 90%;
+  }
+
+  .strength-content{
+    display: block;
+  }
+
+  .strength{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .strength:nth-child(2){
+    margin: 10px auto;
+  }
+
   .profile-contents{
     width: 90%;
   }
