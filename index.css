@@ -219,6 +219,7 @@ nav{
 .contact-contents{
   width: 800px;
   display: flex;
+  text-align: center;
 }
 
 .information{
@@ -478,6 +479,6 @@ footer{
   }
 
   footer{
-    width: 90%;
+    width: 100%;
   }
 }
