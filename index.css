@@ -429,16 +429,18 @@ footer{
     margin: 10px auto;
   }
 
-  .profile-contents{
+  .profile{
     width: 90%;
   }
 
-  .profile-icon{
-    text-align: center;
+  .profile-contents{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
   }
 
   .profile-icon,.profile-explanation{
-    width: 512px;
+    width: 100%;
   }
 
   .profile-image{
@@ -449,17 +451,19 @@ footer{
 
   .profile-title{
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    text-align: center;
   }
 
+  .profile-text{
+    text-align: center;
+  }
 
   .feature{
     width: 90%;
   }
 
-  .profile{
-    width: 90%;
-  }
+
 
   .contact{
     width: 90%;
