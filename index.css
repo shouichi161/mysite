@@ -459,14 +459,22 @@ footer{
     text-align: center;
   }
 
-  .feature{
+  .contact{
     width: 90%;
   }
 
+  .contact-contents{
+    width: 100%;
+    display: block;
+  }
 
+  .information{
+    width: 100%;
+    text-align: center;
+  }
 
-  .contact{
-    width: 90%;
+  .sns{
+    margin-top: 20px;
   }
 
   footer{
